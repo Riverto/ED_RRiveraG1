@@ -18,6 +18,15 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Circulo\Figura.h" />
+    <ClInclude Include="Triangulo.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Circulo\Figura.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Triangulo.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{60264B34-F1F8-4515-824F-A0F427C16B15}</ProjectGuid>
@@ -110,8 +119,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
