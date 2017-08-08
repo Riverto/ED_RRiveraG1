@@ -1,7 +1,11 @@
 #include "Figura.h"
 
 
-
+Figura::Figura()
+{
+	this->area = 0.0;
+	this->perimetro = 0.0;
+}
 Figura::Figura(double area, double perimetro)
 {
 	this->area = area;

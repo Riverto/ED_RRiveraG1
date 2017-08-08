@@ -2,12 +2,13 @@
 class Figura
 {
 public:
+	Figura();
 	Figura(double, double);
 	void setArea(double);
 	void setPerimetro(double);
 	double getArea();
 	double getPerimetro();
-private:
+protected:
 	double area, perimetro;
 };
 
