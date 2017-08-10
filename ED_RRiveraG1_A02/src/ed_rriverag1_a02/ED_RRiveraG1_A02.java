@@ -21,7 +21,7 @@ public class ED_RRiveraG1_A02 {
         System.out.println(multiplicarVector(vector, vector.length-1));
     }
     public static int factorial(int n){
-        if(n<=1) return 1;
+        if(n<=1) return 1;//si el valor es 1 no cambia la multiplicacion, por lo tanto regresa 1, pero si es 0 tambien regresa 1
         return n*factorial(--n);
     }
     
