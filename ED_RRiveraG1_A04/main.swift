@@ -38,11 +38,11 @@ class FetchClass {
     }
 }
 
-protocol Sorting{
+protocol Sorting{ //El protocolo es lo mas parecido que encontra a una interface
         func sort()
     }
 
-class binario: FetchClass{
+class binario: FetchClass, Sorting{
     func sort() {
     var m = 0
     var temp = 0
