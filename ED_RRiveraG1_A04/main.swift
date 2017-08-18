@@ -38,7 +38,7 @@ class FetchClass {
     }
 }
 
-protocol Sorting{ //El protocolo es lo mas parecido que encontra a una interface
+protocol Sorting{ //El protocolo es lo mas parecido que encontre a una interface
         func sort()
     }
 
