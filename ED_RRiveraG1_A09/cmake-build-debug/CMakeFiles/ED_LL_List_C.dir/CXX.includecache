@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/riverto/Desktop/Estructura de Datos/ED_LL-List-C/MyDLList.cpp
+iostream
+-
+NodeDL.cpp
+/Users/riverto/Desktop/Estructura de Datos/ED_LL-List-C/NodeDL.cpp
+
+/Users/riverto/Desktop/Estructura de Datos/ED_LL-List-C/NodeDL.cpp
+
+/Users/riverto/Desktop/Estructura de Datos/ED_LL-List-C/main.cpp
+iostream
+-
+MyDLList.cpp
+/Users/riverto/Desktop/Estructura de Datos/ED_LL-List-C/MyDLList.cpp
+
