@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/riverto/Desktop/Estructura de Datos/ED_Juntos/Contacto.cpp
+Contacto.h
+/Users/riverto/Desktop/Estructura de Datos/ED_Juntos/Contacto.h
+
+/Users/riverto/Desktop/Estructura de Datos/ED_Juntos/Contacto.h
+iostream
+/Users/riverto/Desktop/Estructura de Datos/ED_Juntos/iostream
+
+/Users/riverto/Desktop/Estructura de Datos/ED_Juntos/Node.cpp
+iostream
+/Users/riverto/Desktop/Estructura de Datos/ED_Juntos/iostream
+
+/Users/riverto/Desktop/Estructura de Datos/ED_Juntos/Queue.cpp
+Node.cpp
+/Users/riverto/Desktop/Estructura de Datos/ED_Juntos/Node.cpp
+
+/Users/riverto/Desktop/Estructura de Datos/ED_Juntos/Stack.cpp
+
+/Users/riverto/Desktop/Estructura de Datos/ED_Juntos/main.cpp
+iostream
+-
+Contacto.h
+/Users/riverto/Desktop/Estructura de Datos/ED_Juntos/Contacto.h
+Queue.cpp
+/Users/riverto/Desktop/Estructura de Datos/ED_Juntos/Queue.cpp
+
